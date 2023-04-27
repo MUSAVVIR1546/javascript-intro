@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Javascript</title>
+    <script>
+        var a = {
+            fname : 'Abdul',
+            lname : 'Musavvir',
+            contact : 8890061546,
+            age : 21,
+            favMovies : ['Avengers','Tiger','Black'],
+            
+            salary : function(){
+                return 3000;
+            },
+            
+            living : {
+            'city' : 'Jodhpur',
+            'country' : 'India',
+            },
+
+            fullname : function(){
+                return this.fname + " " + this.lname;
+            }
+        }
+        console.log(a.fullname())
+        document.write(a.fullname())
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

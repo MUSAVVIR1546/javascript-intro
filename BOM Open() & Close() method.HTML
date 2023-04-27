@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <button onclick = "openwindow()">Open Window</button>
+    <button onclick = "closewindow()">Close window</button>
+    <script>
+        var myWindow;
+        function openwindow(){
+            myWindow = window.open("http://www.yahoobaba.net"," ", "width=500px, height = 300px,left=100px,top=200px")
+        }
+        function closewindow(){
+            myWindow.close();
+        }
+    </script>
+</body>
+</html>

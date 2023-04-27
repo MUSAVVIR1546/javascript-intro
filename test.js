@@ -1,0 +1,1 @@
+document.write(" Wa'alaikum Asslam warahmatullahi Wabaraktuhu ");
